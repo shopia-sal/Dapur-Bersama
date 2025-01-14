@@ -44,6 +44,10 @@ export const Documents: Paths[] = [
             title: "Stakeholder Requirement",
             href: "/even-stakholder",
           },
+          {
+            title: "System Requirement",
+            href: "/even-system",
+          },
         ]
       },
     ],
