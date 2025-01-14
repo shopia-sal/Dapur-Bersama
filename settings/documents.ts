@@ -84,7 +84,7 @@ export const Documents: Paths[] = [
         items : [
           {
             title: "Sketsa Awal",
-            href: "/dokumen_desain",
+            href: "/sketsa_awal",
           },
           {
             title: "Prototipe",
