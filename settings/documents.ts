@@ -34,23 +34,23 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Analisis Kebutuhan",
-        href: "/deeper",
+        href: "/analisis_kebutuhan",
         items : [
           {
             title: "Business Requirement",
-            href: "/even-deeper",
+            href: "/business_requirement",
           },
           {
             title: "Stakeholder Requirement",
-            href: "/even-stakholder",
+            href: "/stakeholder_requirement",
           },
           {
             title: "System Requirement",
-            href: "/even-system",
+            href: "/system_requirement",
           },
           {
             title: "Software Requirement",
-            href: "/even-software",
+            href: "/software_requirement",
           },
         ]
       },
