@@ -75,10 +75,7 @@ export const Documents: Paths[] = [
     ],
   },
   {
-    spacer: true,
-  },
-  {
-    title: "Perancangan dan Antarmuka",
+    title: "Perancangan Antarmuka",
     href: "/perancangan_antarmuka",
     items: [
       {
@@ -87,7 +84,7 @@ export const Documents: Paths[] = [
         items : [
           {
             title: "Sketsa Awal",
-            href: "/sketsa_awal",
+            href: "/dokumen_desain",
           },
           {
             title: "Prototipe",
