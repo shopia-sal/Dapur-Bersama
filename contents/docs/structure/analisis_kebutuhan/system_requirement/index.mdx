@@ -1,0 +1,69 @@
+## System Requirement
+
+## 1.Sistem Operasi
+Aplikasi dapat berjalan di berbagai sistem operasi untuk mendukung fleksibilitas pengembangan dan implementasi:
+
+### Windows
+Windows 10 atau lebih baru, Sistem operasi ini mendukung berbagai alat pengembangan seperti Visual Studio dan dapat digunakan untuk pengujian lokal. Windows juga menyediakan dukungan untuk hosting aplikasi menggunakan IIS.
+
+### macOS
+macOS Mojave atau lebih baru, Cocok untuk pengembang yang menggunakan perangkat Apple. macOS mendukung alat pengembangan seperti Xcode dan terminal yang kuat untuk pengembangan web.
+
+### Linux
+Ubuntu 20.04 LTS atau distribusi lain yang stabil, Linux dikenal karena stabilitas dan efisiensinya. Ini adalah pilihan ideal untuk server produksi, mendukung berbagai server web seperti Apache dan Nginx, serta alat kontainer seperti Docker.
+
+## 2.Basis Data
+Pilihan basis data harus sesuai dengan skala aplikasi dan kebutuhan pengelolaan data:
+
+### MySQL
+Basis data relasional yang ideal untuk menyimpan data terstruktur. MySQL memungkinkan pengelolaan data yang efisien dengan dukungan untuk transaksi dan relasi antar tabel.
+**Contoh Penggunaan** : Menyimpan informasi pengguna, resep, kategori, dan ulasan.
+
+### MongoDB:
+Basis data NoSQL yang fleksibel, cocok untuk menyimpan data yang tidak terstruktur atau semi-terstruktur. MongoDB memungkinkan penyimpanan data dalam format dokumen, yang memudahkan pengelolaan data yang bervariasi.
+**Contoh Penggunaan** : Menyimpan log aktivitas pengguna dan metadata resep untuk analisis lebih lanjut.
+
+## 3.Framework
+Framework yang digunakan membantu mempercepat pengembangan dengan menyediakan struktur bawaan:
+
+### php
+ PHP adalah bahasa pemrograman server-side yang banyak digunakan untuk pengembangan web. Menggunakan framework seperti Laravel atau CodeIgniter dapat mempercepat pengembangan dengan menyediakan fitur-fitur siap pakai.
+**Contoh** : Membangun backend untuk mengelola resep, pengguna, dan interaksi.
+
+### JavaScript
+JavaScript adalah bahasa pemrograman yang digunakan untuk pengembangan frontend. Menggunakan framework seperti React atau Vue.js memungkinkan pembuatan antarmuka pengguna yang dinamis dan responsif.
+**Contoh** : Membangun halaman resep yang interaktif dengan fitur pencarian dan filter.
+
+
+## Kebutuhan Perangkat Keras (Hardware Requirements)
+## 1.Minimum RAM
+
+### 8GB
+Memadai untuk pengembangan lokal dan pengoperasian server yang menjalankan aplikasi dan basis data secara bersamaan. Ini memungkinkan pengujian yang efisien tanpa lag.
+Contoh: Server yang dapat menangani hingga 300 permintaan pengguna secara bersamaan.
+
+### 16GB atau lebih
+Disarankan untuk lingkungan pengembangan yang lebih kompleks atau server dengan banyak aplikasi berjalan. Memungkinkan penggunaan alat virtualisasi dan pengujian yang lebih intensif.
+
+## 2.Penyimpanan
+
+### 500GB HDD (minimum)
+ Cukup untuk menyimpan file aplikasi, basis data, dan log sistem. HDD dapat digunakan untuk penyimpanan data yang tidak memerlukan kecepatan tinggi.
+ **Contoh Penggunaan** : Menyimpan hingga 50.000 resep dan data pengguna.
+
+### 500GB SSD (disarankan)
+SSD menawarkan kecepatan baca/tulis yang lebih tinggi, meningkatkan performa aplikasi secara keseluruhan. Sangat cocok untuk server yang melayani banyak pengguna secara bersamaan.
+**Contoh Penggunaan** : Mempercepat akses data dan waktu muat halaman.
+
+## 3.Server Mendukung Virtualisasi
+Server harus mampu menjalankan mesin virtual untuk isolasi lingkungan pengembangan dan pengujian:
+
+- VMWare: Platform virtualisasi komersial yang kuat untuk server fisik.
+- Hyper-V: Teknologi virtualisasi bawaan Windows Server untuk kebutuhan skala besar.
+- KVM (Kernel-based Virtual Machine): Alternatif open-source untuk Linux, memberikan fleksibilitas dan efisiensi biaya.
+
+## 5.Jaringan
+- Kecepatan Jaringan: Minimal 1 Gbps untuk server lokal.
+- Bandwidth: Harus mampu menangani setidaknya 500 pengguna aktif dengan data transfer rata-rata 100 KB per permintaan.
+
+
