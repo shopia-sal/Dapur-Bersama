@@ -95,6 +95,20 @@ export const Documents: Paths[] = [
     ],
   },
   {
+    title: "Metode SDLC",
+    href: "/metode_sdlc",
+    items: [
+      {
+        title: "Analisis Kebutuhan",
+        href: "/analisis_kebutuhan",
+      },
+      {
+        title: "Diagram UML",
+        href: "/diagram_uml",
+      },
+    ],
+  },
+  {
     spacer: true,
   },
   {
