@@ -54,6 +54,24 @@ export const Documents: Paths[] = [
           },
         ]
       },
+      {
+        title: "Diagram",
+        href: "diagram",
+        items : [
+          {
+            title: "Use Case Diagram",
+            href: "/use_case_diagram",
+          },
+          {
+            title: "Class Diagram",
+            href: "/class_diagram",
+          },
+          {
+            title: "Flowchart",
+            href: "/flowchart",
+          },
+        ]
+      },
     ],
   },
   {
