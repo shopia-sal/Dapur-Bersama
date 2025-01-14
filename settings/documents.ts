@@ -75,11 +75,6 @@ export const Documents: Paths[] = [
     ],
   },
   {
-    title: "Projek Website Terintegrasi",
-    href: "/navigation",
-    heading: "Documents",
-  },
-  {
     title: "Perancangan Antarmuka",
     href: "/perancangan_antarmuka",
     items: [
