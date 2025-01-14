@@ -29,15 +29,15 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
-    title: "Structure",
+    title: "Analisis Desain Perangkat Lunak",
     href: "/structure",
     items: [
       {
-        title: "Deeper",
+        title: "Analisis Kebutuhan",
         href: "/deeper",
         items : [
           {
-            title: "Even deeper",
+            title: "Business Requirement",
             href: "/even-deeper",
           },
         ]
