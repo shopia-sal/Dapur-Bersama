@@ -48,6 +48,10 @@ export const Documents: Paths[] = [
             title: "System Requirement",
             href: "/even-system",
           },
+          {
+            title: "Software Requirement",
+            href: "/even-software",
+          },
         ]
       },
     ],
