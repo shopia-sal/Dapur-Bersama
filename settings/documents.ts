@@ -40,6 +40,10 @@ export const Documents: Paths[] = [
             title: "Business Requirement",
             href: "/even-deeper",
           },
+          {
+            title: "Stakeholder Requirement",
+            href: "/even-deeper",
+          },
         ]
       },
     ],
