@@ -120,7 +120,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Panduan Penggunaan Website",
-        href: "/panduan_penggunaan website",
+        href: "/panduan_penggunaan_website",
       },
     ],
   },
