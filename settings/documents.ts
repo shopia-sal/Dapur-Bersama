@@ -95,8 +95,8 @@ export const Documents: Paths[] = [
     ],
   },
   {
-    title: "Pengembangan Aplikasi",
-    href: "/pengembangan_aplikasi",
+    title: "Metode Pengembangan Perangkat Lunak",
+    href: "/metode_pengembangan_perangkat_lunak",
     items: [
       {
         title: "Metode SDLC",
@@ -111,6 +111,16 @@ export const Documents: Paths[] = [
             href: "/diagram_uml",
           },
         ]
+      },
+    ],
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/dokumentasi_penggunaan_website",
+    items: [
+      {
+        title: "Panduan Penggunaan Website",
+        href: "/panduan_penggunaan website",
       },
     ],
   },
