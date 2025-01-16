@@ -1,7 +1,41 @@
 ## System Requirement
 
-## 1.Sistem Operasi
-Aplikasi dapat berjalan di berbagai sistem operasi untuk mendukung fleksibilitas pengembangan dan implementasi:
+##Functional Requirements
+1. Manajemen Resep:
+Pengguna dapat menambah, memperbarui, dan menghapus resep dengan mudah.
+Setiap resep harus mencakup informasi seperti judul, bahan, langkah-langkah, kategori, dan gambar.
+
+2. Pencarian Resep:
+Pengguna dapat mencari resep berdasarkan nama, bahan, atau kategori.
+Fitur filter untuk menyaring resep berdasarkan preferensi diet (misalnya, vegetarian, bebas gluten).
+
+3. Sistem Rating dan Komentar:
+Pengguna dapat memberikan rating dan komentar pada resep yang telah mereka coba.
+Riwayat komentar dan rating harus ditampilkan di halaman resep.
+
+4. Manajemen Akun Pengguna:
+Pengguna dapat membuat akun, masuk, dan mengelola profil mereka.
+
+##Non-Functional Requirements
+
+1. Keamanan:
+Data pengguna dan resep akan dilindungi dengan enkripsi yang kuat untuk mencegah akses tidak sah.
+Sistem harus mematuhi standar keamanan data yang berlaku.
+
+2. Responsivitas:
+Antarmuka pengguna harus responsif dan dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.
+
+3. Kecepatan:
+Waktu muat halaman harus kurang dari 3 detik untuk memastikan pengalaman pengguna yang optimal.
+
+4. Ketersediaan:
+Website harus tersedia 24/7, memungkinkan pengguna untuk mengakses resep kapan saja.
+
+5. Usability:
+Antarmuka pengguna harus intuitif dan mudah digunakan, dengan navigasi yang jelas.
+
+## Sistem Operasi
+Aplikasi harus dapat berjalan di berbagai sistem operasi untuk mendukung fleksibilitas pengembangan dan implementasi:
 
 ### Windows
 Windows 10 atau lebih baru, Sistem operasi ini mendukung berbagai alat pengembangan seperti Visual Studio dan dapat digunakan untuk pengujian lokal. Windows juga menyediakan dukungan untuk hosting aplikasi menggunakan IIS.
@@ -9,8 +43,6 @@ Windows 10 atau lebih baru, Sistem operasi ini mendukung berbagai alat pengemban
 ### macOS
 macOS Mojave atau lebih baru, Cocok untuk pengembang yang menggunakan perangkat Apple. macOS mendukung alat pengembangan seperti Xcode dan terminal yang kuat untuk pengembangan web.
 
-### Linux
-Ubuntu 20.04 LTS atau distribusi lain yang stabil, Linux dikenal karena stabilitas dan efisiensinya. Ini adalah pilihan ideal untuk server produksi, mendukung berbagai server web seperti Apache dan Nginx, serta alat kontainer seperti Docker.
 
 ## 2.Basis Data
 Pilihan basis data harus sesuai dengan skala aplikasi dan kebutuhan pengelolaan data:
@@ -62,7 +94,7 @@ Server harus mampu menjalankan mesin virtual untuk isolasi lingkungan pengembang
 - Hyper-V: Teknologi virtualisasi bawaan Windows Server untuk kebutuhan skala besar.
 - KVM (Kernel-based Virtual Machine): Alternatif open-source untuk Linux, memberikan fleksibilitas dan efisiensi biaya.
 
-## 5.Jaringan
+## 4.Jaringan
 - Kecepatan Jaringan: Minimal 1 Gbps untuk server lokal.
 - Bandwidth: Harus mampu menangani setidaknya 500 pengguna aktif dengan data transfer rata-rata 100 KB per permintaan.
 
