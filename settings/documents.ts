@@ -129,6 +129,20 @@ export const Documents: Paths[] = [
     ],
   },
   {
+    title: "Kesimpulan dan Saran",
+    href: "/kesimpulan_dan_saran",
+    items: [
+      {
+        title: "Evaluasi Proyek",
+        href: "/evaluasi_proyek",
+      },
+      {
+        title: "Rekomendasi Pengembangan Selanjutnya",
+        href: "/rekomendasi_pengembangan_selanjutnya",
+      },
+    ],
+  },
+  {
     spacer: true,
   },
   {
