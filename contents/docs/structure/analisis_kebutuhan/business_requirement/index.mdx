@@ -1,70 +1,75 @@
 ## Business Requirement untuk Website Resep Makanan Online
 
-## 1. Deskripsi Umum
-Perusahaan ingin membangun platform website resep makanan online yang memungkinkan pengguna untuk mencari, berbagi, dan mengelola resep masakan dari berbagai belahan dunia. Platform ini harus mudah digunakan oleh pengguna, baik untuk mencari resep maupun untuk berbagi resep mereka sendiri, serta memberikan pengalaman yang menyenangkan dan interaktif.
+## 1. Deskripsi
+Membuat sebuah platform berbasis web yang menyediakan berbagai resep makanan dari seluruh dunia, yang dapat diakses melalui desktop maupun mobile browser. Pengguna dapat mencari, melihat, dan berbagi resep, serta memberikan ulasan dan rating pada resep yang telah dicoba. Website ini juga memungkinkan pengguna untuk menulis dan mengunggah resep mereka sendiri.
 
-## 2. Tujuan Bisnis
-Tujuan bisnis menjelaskan hasil akhir yang ingin dicapai oleh organisasi:
+### Kategori Resep yang Disediakan:
 
-### 1.Meningkatkan Partisipasi Pengguna:
+Jenis Masakan:
 
-- Mendorong pengguna untuk mendaftar dan berkontribusi dengan menulis dan membagikan resep mereka
-- Meningkatkan interaksi pengguna melalui fitur ulasan dan rating
+- Nusantara
+- Western
+- Japanese
+- Korean
+- Dessert
+- Indian
 
-### 2.Meningkatkan Akses ke Resep::
+Bahan Utama:
+- Daging
+- Sayuran
+- Buah
+- Bahan Pokok (beras, tepung, dll.)
 
-- Menyediakan akses mudah ke ribuan resep dari berbagai kategori, sehingga pengguna dapat menemukan resep yang sesuai dengan selera dan bahan yang tersedia.
-- Mengoptimalkan pencarian resep berdasarkan kategori, bahan.
+Waktu Memasak:
 
-### 3.Meningkatkan Kepuasan Pelanggan
+- Kurang dari 30 menit
+- 30 menit - 1 jam
+- Lebih dari 1 jam
 
-- Memberikan pengalaman pengguna yang responsif dan intuitif, dengan waktu muat halaman tidak lebih dari 3 detik.
-- Menyediakan fitur interaktif seperti komentar untuk meningkatkan keterlibatan pengguna.
 
-## 3. Target Pasar
+## 2. Target Pasar
 Website ini ditujukan untuk:
 
-- Penggemar Masakan: Individu yang suka memasak dan mencari inspirasi resep baru.
-- Keluarga: Ibu rumah tangga yang mencari resep praktis untuk keluarga.
-- Mahasiswa: Mahasiswa yang tinggal jauh dari rumah dan ingin belajar memasak.
-- Koki Profesional: Koki yang mencari resep baru untuk menu mereka.
+- Individu yang suka memasak dan mencari inspirasi resep baru.
+- Ibu rumah tangga yang mencari resep praktis untuk keluarga.
+- Mahasiswa yang tinggal jauh dari rumah dan ingin belajar memasak.
 
+## 3. Fungsional & Proses
 
-## 4. Kebutuhan Bisnis Utama
-Menjabarkan apa yang diperlukan untuk mencapai tujuan bisnis:
+3.1 Business Process Flows
+1. Pengguna mengunjungi halaman utama.
+2. Pengguna melakukan registrasi atau login.
+3. Pengguna mencari resep berdasarkan kategori atau bahan.
+4. Pengguna melihat detail resep.
+5. Pengguna memberikan ulasan dan rating pada resep.
+6. Pengguna dapat menulis dan mengunggah resep baru.
+7. Pengguna dapat mengelola profil mereka.
 
-### 1.Fitur Utama Platform:
+3.2 Flow Proses Cara Menulis Resep:
 
-- Sistem pencarian resep yang responsif dan mendukung pencarian berbasis kategori, bahan.
-- Dashboard pengguna yang memungkinkan mereka melihat resep yang telah diunggah, ulasan
-- Sistem pendaftaran dan login yang aman untuk pengguna.
-- Fitur CRUD untuk memungkinkan pengguna menambahkan, mengedit, dan menghapus resep mereka sendiri.
-- Pengguna dapat memberikan rating dan komentar pada resep untuk berbagi pengalaman mereka.
+1. Pengguna login ke akun mereka.
+2. Pengguna memilih opsi "Tulis Resep".
+3. Pengguna mengisi formulir dengan informasi resep (judul, deskripsi, bahan, langkah memasak, foto).
+4. Pengguna mengklik "Kirim" untuk mengunggah resep.
 
-### 2.Integrasi Media Sosial:
+## 4. Functionality Requirement
+Spesifikasi yang harus dimiliki pada website resep makanan ini adalah:
 
-- Mengintegrasikan platform dengan media sosial untuk memudahkan pengguna dalam membagikan resep dan menarik lebih banyak pengunjung.
+1. Pengguna dapat melakukan login dan registrasi.
+2. Pengguna dapat melihat daftar resep yang tersedia.
+3. Pengguna dapat mencari resep berdasarkan kategori atau bahan.
+4. Pengguna dapat melihat detail resep, termasuk bahan, langkah memasak, dan foto.
+5. Pengguna dapat memberikan rating dan ulasan pada resep yang telah dicoba.
+6. Pengguna dapat menulis dan mengunggah resep mereka sendiri.
+7. Pengguna dapat menyimpan resep favorit untuk akses cepat.
+8. Pengguna dapat mengelola profil mereka, termasuk mengedit informasi pribadi.
 
-### 3.Keamanan Sistem:
+## 5. Usability and Humanity Requirement
 
-- Memastikan data penjual dan pembeli aman dengan penerapan protokol keamanan seperti SSL/TLS, enkripsi data, dan autentikasi dua faktor (2FA).
-
-## 5. Manfaat Bisnis (Business Value)
-Menjelaskan nilai yang akan diperoleh perusahaan setelah implementasi sistem:
-
-### 1.Manfaat untuk Perusahaan:
-
-- Meningkatkan reputasi sebagai platform resep makanan terkemuka dengan komunitas aktif.
-- Memperoleh pendapatan tambahan dari iklan promosi dan afiliasi produk.
-
-### 2.Manfaat untuk Pengguna:
-
-- Memberikan akses ke berbagai resep berkualitas dan pengalaman memasak yang lebih baik.
-- Meningkatkan keterlibatan pengguna melalui fitur interaktif dan komunitas.
-
-### 3.Manfaat untuk Penulis Resep:
-
-- Memberikan platform untuk berbagi kreativitas kuliner dan mendapatkan pengakuan dari komunitas.
-
+5.1 Ease of Use Requirement
+1. Menggunakan simbol, penulisan, dan warna yang mudah dipahami dan jelas sebagai navigasi.
+2. Memiliki desain responsif yang dapat menyesuaikan dengan layar desktop dan mobile.
+3. Interaksi terhadap beragam tombol dan link yang jelas dan intuitif.
+4. Pemberian umpan balik terhadap resep melalui rating dan komentar.
 
 Website Resep Makanan Online diharapkan dapat menjadi alat yang sangat berguna bagi masyarakat, dengan desain yang berfokus pada kemudahan penggunaan dan aksesibilitas. Proyek ini akan terus dikembangkan untuk memenuhi kebutuhan pengguna di masa depan.
