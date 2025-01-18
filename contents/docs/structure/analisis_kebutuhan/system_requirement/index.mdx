@@ -1,69 +1,65 @@
-## System Requirement
+## System Requirements
 
-## 1.Sistem Operasi
-Aplikasi dapat berjalan di berbagai sistem operasi untuk mendukung fleksibilitas pengembangan dan implementasi:
+### 1. Kebutuhan Perangkat Keras
 
-### Windows
-Windows 10 atau lebih baru, Sistem operasi ini mendukung berbagai alat pengembangan seperti Visual Studio dan dapat digunakan untuk pengujian lokal. Windows juga menyediakan dukungan untuk hosting aplikasi menggunakan IIS.
+1.1. Server
+CPU: Minimal 4-core processor (Intel i5 atau setara)
+RAM: Minimal 8 GB
+Storage: Minimal 100 GB SSD untuk penyimpanan data dan file media
+Network: Koneksi internet dengan bandwidth minimal 10 Mbps
 
-### macOS
-macOS Mojave atau lebih baru, Cocok untuk pengembang yang menggunakan perangkat Apple. macOS mendukung alat pengembangan seperti Xcode dan terminal yang kuat untuk pengembangan web.
+1.2. Pengguna
 
-### Linux
-Ubuntu 20.04 LTS atau distribusi lain yang stabil, Linux dikenal karena stabilitas dan efisiensinya. Ini adalah pilihan ideal untuk server produksi, mendukung berbagai server web seperti Apache dan Nginx, serta alat kontainer seperti Docker.
+Desktop:
+- CPU: Minimal dual-core processor
+- RAM: Minimal 4 GB
+- Storage: Minimal 1 GB ruang kosong untuk cache dan data sementara
+- Network: Koneksi internet yang stabil
 
-## 2.Basis Data
-Pilihan basis data harus sesuai dengan skala aplikasi dan kebutuhan pengelolaan data:
+Mobile:
+- OS: Android 5.0 (Lollipop) atau iOS 10.0 ke atas
+- RAM: Minimal 2 GB
+- Storage: Minimal 500 MB ruang kosong untuk aplikasi dan data
 
-### MySQL
-Basis data relasional yang ideal untuk menyimpan data terstruktur. MySQL memungkinkan pengelolaan data yang efisien dengan dukungan untuk transaksi dan relasi antar tabel.
+### 2. Kebutuhan Perangkat Lunak 
 
-**Contoh Penggunaan** : Menyimpan informasi pengguna, resep, kategori, dan ulasan.
+2.1. Server
+- Web Server: Apache 
+- Database: MySQL atau PostgreSQL
+- Bahasa Pemrograman: PHP dan Javascript
+- Framework: Bootstrap
+- Sistem Operasi: Linux (Ubuntu, CentOS, atau Debian)
 
-**Contoh Penggunaan** : Menyimpan log aktivitas pengguna dan metadata resep untuk analisis lebih lanjut.
+2.2. Pengguna
+Web Browser:
 
-## 3.Framework
-Framework yang digunakan membantu mempercepat pengembangan dengan menyediakan struktur bawaan:
+- Google Chrome (versi terbaru)
+- Mozilla Firefox (versi terbaru)
+- Safari (versi terbaru)
+- Microsoft Edge (versi terbaru)
 
-### php
- PHP adalah bahasa pemrograman server-side yang banyak digunakan untuk pengembangan web. Menggunakan framework seperti PHP dapat mempercepat pengembangan dengan menyediakan fitur-fitur siap pakai.
- 
-**Contoh** : Membangun backend untuk mengelola resep, pengguna, dan interaksi.
+### 3. Kebutuhan Jaringan (Network Requirements)
+- HTTP/HTTPS untuk komunikasi yang aman
+- Konfigurasi firewall untuk melindungi server dari akses yang tidak sah
+- Sertifikat SSL untuk enkripsi data dan keamanan transaksi
 
-### JavaScript
-JavaScript adalah bahasa pemrograman yang digunakan untuk pengembangan frontend. Menggunakan framework seperti React atau Vue.js memungkinkan pembuatan antarmuka pengguna yang dinamis dan responsif.
-**Contoh** : Membangun halaman resep yang interaktif dengan fitur pencarian dan filter.
+### 4. Kebutuhan Keamanan
+- Enkripsi data pengguna (misalnya, menggunakan HTTPS).
+- Perlindungan terhadap serangan DDoS.
+- Sistem autentikasi yang aman
+- Sistem backup otomatis untuk database dan file penting.
+- Rencana pemulihan bencana untuk memastikan kelangsungan operasional.
 
+### 5. Non-Functional Requirements
+1. Kinerja 
+- Halaman harus dimuat dalam waktu kurang dari 3 detik pada koneksi internet standar.
+- Sistem harus mampu menangani minimal 1000 pengguna secara bersamaan tanpa penurunan kinerja.
+- Sistem harus dapat memproses pencarian resep dan menampilkan hasil dalam waktu kurang dari 2 detik.
 
-## Kebutuhan Perangkat Keras (Hardware Requirements)
-## 1.Minimum RAM
+2. Usability
+- Antarmuka harus intuitif dan mudah digunakan, dengan navigasi yang jelas dan konsisten.
+- Website harus responsif dan dapat diakses dengan baik di berbagai perangkat, termasuk desktop, tablet, dan smartphone.
 
-### 8GB
-Memadai untuk pengembangan lokal dan pengoperasian server yang menjalankan aplikasi dan basis data secara bersamaan. Ini memungkinkan pengujian yang efisien tanpa lag.
-Contoh: Server yang dapat menangani hingga 300 permintaan pengguna secara bersamaan.
-
-### 16GB atau lebih
-Disarankan untuk lingkungan pengembangan yang lebih kompleks atau server dengan banyak aplikasi berjalan. Memungkinkan penggunaan alat virtualisasi dan pengujian yang lebih intensif.
-
-## 2.Penyimpanan
-
-### 500GB HDD (minimum)
- Cukup untuk menyimpan file aplikasi, basis data, dan log sistem. HDD dapat digunakan untuk penyimpanan data yang tidak memerlukan kecepatan tinggi.
- **Contoh Penggunaan** : Menyimpan hingga 50.000 resep dan data pengguna.
-
-### 500GB SSD (disarankan)
-SSD menawarkan kecepatan baca/tulis yang lebih tinggi, meningkatkan performa aplikasi secara keseluruhan. Sangat cocok untuk server yang melayani banyak pengguna secara bersamaan.
-**Contoh Penggunaan** : Mempercepat akses data dan waktu muat halaman.
-
-## 3.Server Mendukung Virtualisasi
-Server harus mampu menjalankan mesin virtual untuk isolasi lingkungan pengembangan dan pengujian:
-
-- VMWare: Platform virtualisasi komersial yang kuat untuk server fisik.
-- Hyper-V: Teknologi virtualisasi bawaan Windows Server untuk kebutuhan skala besar.
-- KVM (Kernel-based Virtual Machine): Alternatif open-source untuk Linux, memberikan fleksibilitas dan efisiensi biaya.
-
-## 5.Jaringan
-- Kecepatan Jaringan: Minimal 1 Gbps untuk server lokal.
-- Bandwidth: Harus mampu menangani setidaknya 500 pengguna aktif dengan data transfer rata-rata 100 KB per permintaan.
-
-
+3. Kompatibilitas (Compatibility)
+- Website harus kompatibel dengan berbagai browser modern, termasuk Google Chrome, Mozilla Firefox, Safari, dan Microsoft Edge.
+- Website harus dapat diakses di berbagai sistem operasi, termasuk Windows, macOS, Android, dan iOS.
